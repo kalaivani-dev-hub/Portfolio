@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",
+    "allowJs": true,
+    "target": "es5",
+    // "bun-types" is the important part
+    "types": ["bun-types"]
+  },
+  "include": ["./src/**/*", "src/custom.d.ts"]
+}
